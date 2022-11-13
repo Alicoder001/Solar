@@ -90,15 +90,8 @@ ol {
   height: 900px;
 
   margin-bottom: 150px;
-}
-.background_header {
   background-image: url("../images/main.jpg");
-}
-.background {
-  margin: 0 auto;
-  width: 1920px;
-
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -247,6 +240,9 @@ ol {
 .passiv {
   height: 525px;
   margin-bottom: 150px;
+  background-image: url("../images/panels.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .passiv_container {
@@ -254,9 +250,6 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/panels.png");
-  background-repeat: no-repeat;
-  background-size: contain;
   text-align: center;
 }
 .passiv_info {
@@ -336,10 +329,12 @@ ol {
   height: 730px;
 
   color: white;
+  background-image: url("../images/footer.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 .background-footer {
   padding-top: 70px;
-  background-image: url("../images/footer.png");
 }
 .footer_block {
   width: 100%;
